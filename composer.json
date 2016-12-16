@@ -1,0 +1,34 @@
+{
+    "name": "tandf/tandfindia",
+    "description": "T&F India support package for the Taylor & Francis Group",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sean Sciarrone",
+            "email": "sean.sciarrone@taylorandfrancis.com"
+        }
+    ],
+    "support": {
+        "source": "http://usmia-gitp2.crcpress.local:7990/projects/TANDF/repos/tandfindia/browse"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "danielstjules/stringy": "~1.9|~2.0",
+        "monolog/monolog": "~1.0",
+        "nesbot/carbon": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TandF\\India\\": "src/India"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
