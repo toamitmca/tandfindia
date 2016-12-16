@@ -9,7 +9,7 @@
         }
     ],
     "support": {
-        "source": "http://usmia-gitp2.crcpress.local:7990/projects/TANDF/repos/tandfindia/browse"
+        "source": "https://github.com/toamitmca/tandfindia"
     },
     "require": {
         "php": ">=5.5.9",
